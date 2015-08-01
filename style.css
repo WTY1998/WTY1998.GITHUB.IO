@@ -2,8 +2,8 @@
 
 
 p{
-  font-size:30px;
-  font-family:Times;
+  font-size:40px;
+  font-family:Fantasy;
   color:white;
   text-align:center;
   background-color: grey; 
@@ -14,7 +14,7 @@ p{
 h1 {
   color:white;
   font-size:60px;
-  font-family:Fantasy;
+  font-family:times;
   text-align:center;
   background-color: grey;
   background:rgba(0,0,0,0.3); 
@@ -22,10 +22,26 @@ h1 {
   
 }
 
-body {background-image: url(heheda.gif);
-      background-attach#f7977ament:fixed;
-      }
+body {
+  background-image: url(heheda.gif);
+  background-attachment:fixed;
+}
 
 #title {
     height: 10%;
 }
+
+img
+{
+  opacity:0.95;
+  vertical-align:middle;
+  background:rgba(0,0,0,0.3);
+  display: block;width: 960px;
+  height: 540px;
+  margin: 0 auto;
+  background: url(4.jpeg) no-repeat scroll 0 0 transparent;
+}
+a:link {text-decoration:none;} 
+a:visited {text-decoration:none;} 
+a:hover {text-decoration:underline;}  
+a:active {text-decoration:underline;}  
