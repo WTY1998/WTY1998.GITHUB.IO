@@ -1,14 +1,20 @@
 
 
 
-h1 {
+p{
+  font-size:30px;
+  font-family:Times;
+  color:white;
   text-align:center;
   background-color: grey; 
   padding: 20px;
   background:rgba(0,0,0,0.3);
 }
 
-h2 {
+h1 {
+  color:white;
+  font-size:60px;
+  font-family:Fantasy;
   text-align:center;
   background-color: grey;
   background:rgba(0,0,0,0.3); 
@@ -16,4 +22,10 @@ h2 {
   
 }
 
-body {background-image: url(heheda.gif);}
+body {background-image: url(heheda.gif);
+      background-attach#f7977ament:fixed;
+      }
+
+#title {
+    height: 10%;
+}
